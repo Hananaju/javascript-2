@@ -5,7 +5,7 @@ var pacientes = document.querySelectorAll(".pacientes");
 
 for(var i = 0; i < pacientes.length; i++){
     
-    var paciente = paciente[i];
+    var paciente = pacientes[i];
 
     var tdPeso = paciente.querySelector(".info-peso");
     var peso = tdPeso.textContent;
