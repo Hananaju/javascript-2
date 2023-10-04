@@ -42,10 +42,6 @@ function exibeMensagemDeErro(erros){
         var tabela = document.querySelector("#tabela-pacientes");
         tabela.appendChild(pacienteTr);
     }
-    
-    var tabela = document.querySelector("#tabela-pacientes");
-
-    tabela.appendChild(pacienteTr);
 
 function obtemPacienteDoFormulario(form){
 
